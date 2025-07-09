@@ -167,10 +167,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6903273781228706684, guid: 62e12db14d77709408e75e8ef512bc10, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7691220975288125512, guid: 62e12db14d77709408e75e8ef512bc10, type: 3}
       propertyPath: m_Name
       value: YazZ_Z
       objectReference: {fileID: 0}
+    - target: {fileID: 9180085220661992378, guid: 62e12db14d77709408e75e8ef512bc10, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 7604a4b63d6ad504a9bdd7b64ad99fe2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
