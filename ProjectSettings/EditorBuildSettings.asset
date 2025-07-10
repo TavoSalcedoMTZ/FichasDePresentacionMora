@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Axor/Axor.unity
     guid: 292df8d51aee1d64dbbeb140594b9470
+  - enabled: 1
+    path: Assets/Alex/AlexScene.unity
+    guid: 446248e5bf0dbc146bf4130b83cbd326
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
