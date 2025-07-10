@@ -1,16 +1,15 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Starter : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+   
+    public UnityEvent OnStart;
+
     void Start()
     {
-        
+     OnStart?.Invoke();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
