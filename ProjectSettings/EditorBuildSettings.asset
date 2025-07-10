@@ -8,6 +8,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainScene/MainScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Armando/Armando.unity
+    guid: 194e6c45d93885243bfad36bc0373ac8
+  - enabled: 1
+    path: Assets/Claudio/ClaudioScene.unity
+    guid: fa8fc0cdf5e5ecf46b43e29e30a87997
+  - enabled: 1
+    path: Assets/Edward/EdwardScene.unity
+    guid: 9f54e6840666e9f4984bde3f1e5e6804
+  - enabled: 1
+    path: Assets/Mia/MiaScene.unity
+    guid: 66a929c7a0c21de4ca33ecf35f00c4cb
+  - enabled: 1
+    path: Assets/NIco/Scenes/PresentacionNico.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Octavio/OctavioScene.unity
+    guid: f0ae48f4adcd89f498a33790943ef59a
+  - enabled: 1
+    path: Assets/Ramses/RamScene.unity
+    guid: f06994e22c6f2674ebe8260d93206fff
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
