@@ -693,8 +693,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: eab87b769ff3e7340ba1e8069b65b0c8, type: 2}
   - {fileID: 11400000, guid: bf4e6dfbfc1b1ae439168c4c453ebcbd, type: 2}
   - {fileID: 11400000, guid: 9b9a5a4487fb5e4458d2a26d3bbc7a5c, type: 2}
-  - {fileID: 11400000, guid: ee83c6620a7c3dd49a664f026cf94014, type: 2}
   - {fileID: 11400000, guid: ff6b56f7c22f4eb41b4d2e93c403e7ff, type: 2}
+  - {fileID: 11400000, guid: ee83c6620a7c3dd49a664f026cf94014, type: 2}
   CuadroPreview: {fileID: 1352026602}
   NombrePresentacion: {fileID: 419737217}
 --- !u!1 &619394800
@@ -1226,7 +1226,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 869601374}
   m_OnClick:
     m_PersistentCalls:
@@ -1656,7 +1656,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1556508083
 MonoBehaviour:
@@ -1716,19 +1716,7 @@ MonoBehaviour:
   duracion: 1
   onFadeOutComplete:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 869601373}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
-        m_MethodName: set_interactable
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &2113703179
 GameObject:
   m_ObjectHideFlags: 0
