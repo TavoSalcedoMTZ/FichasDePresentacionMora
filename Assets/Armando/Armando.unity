@@ -709,8 +709,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5623952637516754805, guid: 62e12db14d77709408e75e8ef512bc10, type: 3}
       propertyPath: m_Volume
-      value: 0.575
+      value: 0.476
       objectReference: {fileID: 0}
+    - target: {fileID: 5623952637516754805, guid: 62e12db14d77709408e75e8ef512bc10, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 717b11f919c13aa44889d3dc22303d30, type: 3}
+    - target: {fileID: 5623952637516754805, guid: 62e12db14d77709408e75e8ef512bc10, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 717b11f919c13aa44889d3dc22303d30, type: 3}
     - target: {fileID: 5763598877630080370, guid: 62e12db14d77709408e75e8ef512bc10, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5703421
@@ -1066,7 +1074,7 @@ AudioReverbZone:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872655226}
-  m_Enabled: 1
+  m_Enabled: 0
   m_MinDistance: 21.6
   m_MaxDistance: 42.3
   m_ReverbPreset: 1
@@ -1090,7 +1098,7 @@ AudioChorusFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872655226}
-  m_Enabled: 1
+  m_Enabled: 0
   m_DryMix: 0.63
   m_WetMix1: 0.47
   m_WetMix2: 0.56
