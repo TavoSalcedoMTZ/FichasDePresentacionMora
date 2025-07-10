@@ -729,6 +729,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b8f0c1de5bbee214fbce631e2765967e, type: 2}
   - {fileID: 11400000, guid: 6d52bf93dd4c660428048c8b77fb8647, type: 2}
   - {fileID: 11400000, guid: eab87b769ff3e7340ba1e8069b65b0c8, type: 2}
+  - {fileID: 11400000, guid: bf4e6dfbfc1b1ae439168c4c453ebcbd, type: 2}
+  - {fileID: 11400000, guid: 9b9a5a4487fb5e4458d2a26d3bbc7a5c, type: 2}
   - {fileID: 11400000, guid: ee83c6620a7c3dd49a664f026cf94014, type: 2}
   CuadroPreview: {fileID: 1352026602}
   NombrePresentacion: {fileID: 419737217}
@@ -1031,6 +1033,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: CanvasManager, Assembly-CSharp
         m_MethodName: ViajarScene
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 825768134}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1501,18 +1515,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1092546738}
         m_TargetAssemblyTypeName: CanvasManager, Assembly-CSharp
-        m_MethodName: SetButtonMain
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1092546738}
-        m_TargetAssemblyTypeName: CanvasManager, Assembly-CSharp
         m_MethodName: GoToScene
         m_Mode: 1
         m_Arguments:
@@ -1715,7 +1717,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_TargetDisplay: 0
 --- !u!224 &1092546742
 RectTransform:
