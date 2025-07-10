@@ -694,6 +694,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bf4e6dfbfc1b1ae439168c4c453ebcbd, type: 2}
   - {fileID: 11400000, guid: 9b9a5a4487fb5e4458d2a26d3bbc7a5c, type: 2}
   - {fileID: 11400000, guid: ee83c6620a7c3dd49a664f026cf94014, type: 2}
+  - {fileID: 11400000, guid: ff6b56f7c22f4eb41b4d2e93c403e7ff, type: 2}
   CuadroPreview: {fileID: 1352026602}
   NombrePresentacion: {fileID: 419737217}
 --- !u!1 &619394800
@@ -1225,7 +1226,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 869601374}
   m_OnClick:
     m_PersistentCalls:
@@ -1362,7 +1363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1649,6 +1650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1556508084}
   - component: {fileID: 1556508083}
+  - component: {fileID: 1556508085}
   m_Layer: 0
   m_Name: Iniciador
   m_TagString: Untagged
@@ -1668,6 +1670,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcdf600a6b1de124bbed6eb1da84ffeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1556508085}
+        m_TargetAssemblyTypeName: FadeOutImage, Assembly-CSharp
+        m_MethodName: IniciarRutina
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1556508084
 Transform:
   m_ObjectHideFlags: 0
@@ -1683,6 +1700,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1556508085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556508082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6877d3dbc6a2a9746b074629530e85ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelImage: {fileID: 907459421}
+  duracion: 1
+  onFadeOutComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 869601373}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &2113703179
 GameObject:
   m_ObjectHideFlags: 0
