@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a55e0956ae0e534eb4d1fa410cdff03, type: 3}
   m_Name: Armando
   m_EditorClassIdentifier: 
-  Preview: {fileID: 21300000, guid: 3b7108776a5d67c4cada9bae6a15409f, type: 3}
+  Preview: {fileID: 21300000, guid: f2407d18b396a3741a8cd1971805b20a, type: 3}
   Name: Armando
   SceneName: Armando
