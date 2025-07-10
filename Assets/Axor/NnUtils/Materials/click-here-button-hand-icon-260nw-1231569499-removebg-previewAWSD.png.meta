@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 96d3f12e84047f24d9ec241df4f87181
+guid: 2f7d7c28fab752b42befb1e42b2e67eb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1-removebg-preview_0
+      name: click-here-button-hand-icon-260nw-1231569499-removebg-previewAWSD_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 274
-        width: 500
-        height: 226
+        x: 50
+        y: 81
+        width: 348
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,30 +138,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 017d9f460cfc17445a0e2ab4b10cd055
-      internalID: -456623766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1-removebg-preview_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a41f9f9e6ee05764ba9cb6d1029c90ba
-      internalID: 1020183763
+      spriteID: c1b3557c05e1107479f65628f3deaadd
+      internalID: 102361952
       vertices: []
       indices: 
       edges: []
@@ -170,7 +148,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b0ad3401814cc98478aeed0020296abe
+    spriteID: e8a2a3cbf1926e24f8aad83607c8a3b2
     internalID: 0
     vertices: []
     indices: 
@@ -180,8 +158,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1-removebg-preview_0: -456623766
-      1-removebg-preview_1: 1020183763
+      click-here-button-hand-icon-260nw-1231569499-removebg-previewAWSD_0: 102361952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

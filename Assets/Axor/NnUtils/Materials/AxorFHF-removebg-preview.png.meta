@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 96d3f12e84047f24d9ec241df4f87181
+guid: 8cd75f7cc4aafe04a8ded12cc1c5a69b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1-removebg-preview_0
+      name: AxorFHF-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 274
+        y: 261
         width: 500
-        height: 226
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 017d9f460cfc17445a0e2ab4b10cd055
-      internalID: -456623766
+      spriteID: a2ee2406b62321f4fb296b4793451564
+      internalID: -1994784197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1-removebg-preview_1
+      name: AxorFHF-removebg-preview_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 24
         width: 500
-        height: 261
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a41f9f9e6ee05764ba9cb6d1029c90ba
-      internalID: 1020183763
+      spriteID: 0b2064467b9e0554398fb8c0dd384027
+      internalID: -529983435
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b0ad3401814cc98478aeed0020296abe
+    spriteID: 926b45aafc94f774faaa1e33692e0b36
     internalID: 0
     vertices: []
     indices: 
@@ -180,8 +180,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1-removebg-preview_0: -456623766
-      1-removebg-preview_1: 1020183763
+      AxorFHF-removebg-preview_0: -1994784197
+      AxorFHF-removebg-preview_1: -529983435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

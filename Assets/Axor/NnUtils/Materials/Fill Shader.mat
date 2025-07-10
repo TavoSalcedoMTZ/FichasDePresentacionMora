@@ -137,12 +137,12 @@ Material:
     - _DstBlendAlpha: 0
     - _EMISSION_WEIGHT: 1
     - _EnvironmentReflections: 1
-    - _Fill: 0.658
+    - _Fill: 0.771
     - _Fill_Noise_Clamp_Max: 1
     - _Fill_Noise_Clamp_Min: 0.2
     - _Fill_Noise_Scale: 1
     - _Fill_Noise_Time_Scale: 1
-    - _Fill_Width: 0.613
+    - _Fill_Width: 0.744
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
